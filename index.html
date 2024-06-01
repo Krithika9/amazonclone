@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!--nav bar-->
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second"> India </p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-language border">
+                <div class="lang-select border">
+                    <img src="flagIndia.png" alt="">
+
+                    <select class="lang-select">
+                        <option value="">EN</option>
+                        <option value="">Hindi</option>
+                        <option value="">Kannada</option>
+                        <option value="">Malyalam</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="nav-singin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+
+            <div class="nav-returns border">
+                <p><span>Returns</span></p>
+                <p class="nav-second"> & Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+        <!---pannel section -->
+        <div class="pannel">
+            <div class="pannel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+
+            </div>
+            <div class="pannel-option ">
+                <a class="border">Today's Deals</a>
+                <a class="border">Customer Service</a>
+                <a class="border">Registry</a>
+                <a class="border">Gift Cards</a>
+                <a class="border">Sell</a>
+            </div>
+            <div class="pannel-deals"></div>
+            <a class="border">Shop deals in Electronics </a>
+
+        </div>
+    </header>
+
+    <!---hero section-->
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com.You can also shop on Amazon India for millions of products with fast local
+                delivery.<button class="card-product-btn">Click here to go to amazon.in</button>
+        </div>
+    </div>
+
+    <!---product box-->
+    <div class="card-product-container container productBackgraound">
+        <div class="card-product">
+            <h2>Gaming accessories</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested">
+                    <img src="headsets.jpg" />
+                    <p>Headsets</p>
+                </div>
+                <div class="card-nested">
+                    <img src="keybords.jpg" />
+                    <p>Keyboards</p>
+                </div>
+                <div class="card-nested">
+                    <img src="computermice.jpg" />
+                    <p>Computer mice</p>
+                </div>
+                <div class="card-nested">
+                    <img src="chairs.jpg" />
+                    <p>Chairs</p>
+                </div>
+            </div>
+            <button class="card-product-btn">See more</button>
+        </div>
+        <div class="card-product">
+            <h2>Refresh your space</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested">
+                    <img src="dining.jpg" />
+                    <p>Dining </p>
+                </div>
+                <div class="card-nested">
+                    <img src="home.jpg" />
+                    <p>Home</p>
+                </div>
+                <div class="card-nested">
+                    <img src="kitchen.jpg" />
+                    <p>Kitchen</p>
+                </div>
+                <div class="card-nested">
+                    <img src="beauty.jpg" />
+                    <p>Health and Beauty</p>
+                </div>
+            </div>
+            <button class="card-product-btn">See more</button>
+        </div>
+        <div class="card-product">
+            <h2>Amazon Gadget Store</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested">
+                    <img src="smartphone.jpg" />
+                    <p>Smartphones</p>
+                </div>
+                <div class="card-nested">
+                    <img src="tablets.jpg" />
+                    <p>Tablet</p>
+                </div>
+                <div class="card-nested">
+                    <img src="laptop.jpg" />
+                    <p>Laptops</p>
+                </div>
+                <div class="card-nested">
+                    <img src="tvv.jpg" />
+                    <p>TVs</p>
+                </div>
+            </div>
+            <button class="card-product-btn">See more from Amazon Gadget</button>
+        </div>
+        <div class="card-product">
+            <h2>Deals on PCs</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested1">
+                    <img src="deals.jpg" />
+                </div>
+            </div>
+            <button class="card-product-btn">Shop more</button>
+        </div>
+    </div>
+
+    <div class="card-product-container ">
+        <div class="card-product">
+            <h2>Gifts for every Mom</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested1">
+                    <img src="momgift.jpg" />
+                </div>
+            </div>
+            <button class="card-product-btn">Shop gifts</button>
+        </div>
+
+        <div class="card-product">
+            <h2>Shop deals in Fashion</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested">
+                    <img src="jeans.jpg" />
+                    <p>Jeans under $50</p>
+                </div>
+                <div class="card-nested">
+                    <img src="tops.jpg" />
+                    <p>Top under $25</p>
+                </div>
+                <div class="card-nested">
+                    <img src="dress.jpg" />
+                    <p>Dresses under $30</p>
+                </div>
+                <div class="card-nested">
+                    <img src="shoes.jpg" />
+                    <p>Shoes under $50</p>
+                </div>
+            </div>
+            <button class="card-product-btn">see more</button>
+        </div>
+        <div class="card-product">
+            <h2>Beauty steals under $25</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested1">
+                    <img src="beautystel.jpg" />
+                </div>
+            </div>
+            <button class="card-product-btn">see more</button>
+        </div>
+        <div class="card-product">
+            <h2>Warm & welcoming decor</h2>
+            <div class="card-product-nested-card">
+                <div class="card-nested">
+                    <img src="wreaths.jpg" />
+                    <p>Wreaths & garlands</p>
+                </div>
+                <div class="card-nested">
+                    <img src="outdoor.jpg" />
+                    <p>Outdoor decor</p>
+                </div>
+                <div class="card-nested">
+                    <img src="pillows.jpg" />
+                    <p>Pillows &throws</p>
+                </div>
+                <div class="card-nested">
+                    <img src="walart.jpg" />
+                    <p>Wall art & mirrors</p>
+                </div>
+            </div>
+            <button class="card-product-btn">see more</button>
+        </div>
+    </div>
+    <!--scroll bar-->
+    <div class="scroll">
+        <div class="scroll-product">
+            <h2>Best Sellers in Sports & Outdoors</h2>
+            <div class="products">
+                <img src="sport.jpg" alt="">
+                <img src="sport1.jpg" alt="">
+                <img src="sport2.jpg" alt="">
+                <img src="sport3.jpg" alt="">
+                <img src="sport4.jpg" alt="">
+                <img src="sport5.jpg" alt="">
+                <img src="sport6.jpg" alt="">
+                <img src="sport7.jpg" alt="">
+                <img src="sport8.jpg" alt="">
+                <img src="sport9.jpg" alt="">
+                <img src="sport10.jpg" alt="">
+                <img src="sport11.jpg" alt="">
+                <img src="sport12.jpg" alt="">
+                <img src="sport13.jpg" alt="">
+                <img src="sport14.jpg" alt="">
+                <img src="sport15.jpg" alt="">
+                <img src="sport16.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!---footer -->
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get To Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+
+            </ul>
+            <ul>
+                <p>Make Money with us</p>
+                <a>Sell Products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Self Publish with us</a>
+                <a>Host on Amazon Hub</a>
+                <a>See More Make More with us</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo">
+
+            </div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                &#169 1996-2023, Amazon.com, Inc.or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
