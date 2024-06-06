@@ -1,2 +1,2 @@
 # amazonclone
-A Simple Amazon clone using HTMl and CSS
+This project is a frontend clone of the Amazon website, built using HTML and CSS.
